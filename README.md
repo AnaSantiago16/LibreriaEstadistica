@@ -37,6 +37,7 @@ Todos los métodos reciben parámetros necesarios para sus cálculos y devuelven
 
  Validaciones:
 -	Los métodos estadísticos (promedio, mediana, moda) verifican si el array está vacío para devolver 0
+-	tienen validacion en que no se pueden agregar letras u otro caracter que no sea un numero
 
 Instrucciones para importar el .jar en otro proyecto
 
