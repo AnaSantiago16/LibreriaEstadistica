@@ -81,7 +81,7 @@ Calcula el precio final con descuento aplicado
 
 ---
 
-## 🛡️ Validaciones y Seguridad
+🛡️ Validaciones y Seguridad
 
 - Todos los métodos estadísticos verifican arrays vacíos (devuelven 0)
 - Validación de tipos de datos (solo acepta números)
@@ -101,29 +101,41 @@ Calcula el precio final con descuento aplicado
 
 
 
-3. **Uso en código:**
-```java
-import com.tulibreria.estadistica.Formulas;
-
-public class MiClase {
-    public static void main(String[] args) {
-        double iva = Formulas.IVA(100); // Ejemplo de uso
+🧪 Ejemplo de Uso
+public static void main(String[] args) {
+    Scanner tx = new Scanner(System.in);
+    
+    try {
+        // Cálculo de IVA
+        double precio = 250.0;
+        System.out.println("IVA de " + precio + ": " + Formulas.IVA(precio));
+        
+        // Cálculo estadístico
+        double[] datos = {12.5, 18.3, 11.7, 16.2};
+        System.out.println("Promedio: " + Formulas.promedio(datos));
+        
+        // Interactivo
+        double monto = Formulas.leerDoublePositivo(tx, "Ingrese monto: ");
+        System.out.println("Descuento 20%: " + Formulas.descuento(monto, 20));
+    } finally {
+        tx.close();
     }
 }
-```
 
----
-
-## ▶️ Video Demostrativo
+▶️ Video Demostrativo
 
 [![Ver video tutorial](https://img.youtube.com/vi/0JD6jw8yBec/0.jpg)](https://youtu.be/0JD6jw8yBec)
 
 ---
+📌 Mejoras en v2.0
+Validación exhaustiva de parámetros
 
-## 📌 Notas Importantes
+Manejo de errores mejorado
 
-- Todos los métodos son `static` (no requiere instanciar la clase)
-- Precisión de decimales configurada para operaciones financieras
-- Compatible con Java 8 y versiones superiores
-- Licencia MIT - Uso libre en proyectos comerciales
-``` 
+Métodos auxiliares para entrada de datos
+
+Documentación Javadoc completa
+
+Ejemplos de uso integrados
+
+Compatibilidad con Java 8+
