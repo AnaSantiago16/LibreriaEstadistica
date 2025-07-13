@@ -1,17 +1,18 @@
-```markdown
+
 # Librería Estadística - Documentación
 
 ## 📊 Descripción
 
 La **Librería Estadística** es una utilidad Java diseñada para simplificar cálculos estadísticos y operaciones financieras comunes. Proporciona métodos estáticos listos para usar en tus proyectos.
 
-**Funcionalidades principales:**
+
+Funcionalidades principales:
 - 🧮 Cálculos de IVA (agregar/remover)
 - 📈 Operaciones con porcentajes
 - 💰 Cálculos de descuentos
 - 📊 Estadísticas básicas (promedio, mediana, moda)
 
-## 🧠 Explicación del Código
+🧠 Explicación del Código
 
 ### Clase Principal: `Formulas`
 Contiene todos los métodos estáticos para realizar los cálculos.
