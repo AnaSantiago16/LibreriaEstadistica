@@ -40,5 +40,9 @@ Todos los métodos reciben parámetros necesarios para sus cálculos y devuelven
 
 Instrucciones para importar el .jar en otro proyecto
 
-Uso
+ VIDEO: 
+ https://youtu.be/0JD6jw8yBec
+
+
+
 
