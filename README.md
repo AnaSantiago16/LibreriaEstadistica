@@ -92,17 +92,14 @@ Calcula el precio final con descuento aplicado
 
 ## 📥 Instrucciones de Importación
 
-### Para importar el .jar en tu proyecto:
+1. **Descargar** el archivo `Estadistica.jar`
+2. En tu proyecto NetBeans:
+   - Click derecho en **"Libraries"** (en el panel Projects)
+   - Seleccionar **"Add JAR/Folder..."**
+   - Buscar y seleccionar el archivo `Estadistica.jar`
+   - Click en **"Abrir"**
 
-1. **Eclipse:**
-   - Click derecho en el proyecto → Build Path → Configure Build Path
-   - Pestaña Libraries → Add External JARs
-   - Seleccionar el archivo `Estadistica.jar`
 
-2. **IntelliJ IDEA:**
-   - File → Project Structure → Modules → Dependencies
-   - Click en `+` → JARs or directories
-   - Seleccionar el archivo .jar
 
 3. **Uso en código:**
 ```java
